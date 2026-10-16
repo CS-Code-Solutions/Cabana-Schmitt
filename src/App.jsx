@@ -6,7 +6,7 @@ import {
 } from 'lucide-react';
 
 const AIRBNB_URL = 'https://www.airbnb.com.br/rooms/1511092742388459827?viralityEntryPoint=1&s=76';
-const WHATSAPP_NUMBER = '5551996105590'; // Confirmar com o anfitrião antes de publicar.
+const WHATSAPP_NUMBER = '5551996105590';
 const waLink = (message = 'Olá! Gostaria de saber mais sobre a Cabana Schmitt – Vista das Estrelas e consultar disponibilidade.') =>
   `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
 
